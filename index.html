@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fundamentos e Práticas da Educação Infantil — Planejamento</title>
+  <meta name="description" content="Página responsiva com o planejamento completo da disciplina Fundamentos e Práticas da Educação Infantil, incluindo ementa, cronograma por semanas e critérios de avaliação." />
+  <style>
+    :root{
+      --bg:#ffffff;
+      --fg:#111111;
+      --muted:#5b5b5b;
+      --brand:#185adb;
+      --chip:#eef2ff;
+      --card:#f8fafc;
+      --radius:14px;
+      --shadow:0 6px 24px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+      line-height:1.6;
+      color:var(--fg);
+      background:var(--bg);
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+    .container{max-width:960px;margin-inline:auto;padding:clamp(16px,2.5vw,28px)}
+    header{
+      background:linear-gradient(180deg,var(--chip),#fff);
+      padding:clamp(18px,2.8vw,28px);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+    }
+    h1{
+      margin:0 0 .35rem 0;
+      font-size:clamp(1.5rem,2.6vw,2.1rem);
+      line-height:1.2;
+      letter-spacing:.2px;
+    }
+    .meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:.5rem 1rem;
+      color:var(--muted);
+      font-size:.98rem;
+    }
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      gap:.5rem;
+      padding:.35rem .65rem;
+      border-radius:999px;
+      background:var(--chip);
+      color:#1f2937;
+      font-weight:600;
+      font-size:.9rem;
+    }
+    a{color:var(--brand);text-decoration:underline;text-underline-offset:2px}
+    a:focus-visible{outline:3px solid #111;outline-offset:3px;border-radius:8px}
+    .section{
+      margin-top:clamp(18px,3vw,28px);
+      padding:clamp(12px,2vw,18px);
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+    }
+    .section h2{margin-top:0;font-size:clamp(1.2rem,2.2vw,1.5rem)}
+    /* Sumário por semanas (sem bullets) */
+    .toc{
+      display:flex;
+      flex-wrap:wrap;
+      gap:.5rem;
+      margin:.75rem 0 0;
+      padding:0;
+      list-style:none;
+    }
+    .toc a{
+      display:inline-block;
+      text-align:center;
+      padding:.4rem .8rem;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid #e5e7eb;
+      font-weight:700;
+      text-decoration:none;
+      color:#111;
+      white-space:nowrap;
+    }
+    .toc a:hover{background:var(--chip)}
+    .bold{font-weight:700}
+    /* Cartões das semanas */
+    .week{
+      background:#fff;
+      border:1px solid #e5e7eb;
+      border-radius:12px;
+      padding:1rem;
+      margin:.75rem 0 1rem 0;
+    }
+    .week h3{
+      margin:.2rem 0 .3rem 0;
+      font-size:1.05rem;
+      font-weight:700;
+    }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:.45rem;
+      padding:.24rem .6rem;
+      background:var(--chip);
+      border-radius:999px;
+      font-weight:700;
+      font-size:.88rem;
+      color:#1f2937;
+    }
+    .date{
+      color:var(--muted);
+      font-weight:700;
+      font-variant-numeric:tabular-nums;
+    }
+    .content p{margin:.35rem 0}
+    /* Sem bullets globais */
+    ul, ol{list-style:none;margin:0;padding:0}
+    li{margin:.25rem 0}
+    @media (max-width:740px){
+      .toc a{font-size:.95rem}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header aria-labelledby="titulo-principal">
+      <h1 id="titulo-principal">Fundamentos e Práticas da Educação Infantil</h1>
+      <div class="meta" aria-label="dados da disciplina">
+        <span class="chip">Disciplinas: <strong>Fundamentos e Práticas da Educação Infantil</strong></span>
+        <span class="chip">Professoras: <strong>Mary Grace Pereira Andrioli</strong></span>
+        <span class="chip">
+          <a href="mailto:maryg@ifsp.edu.br" aria-label="e-mail da professora Mary"><strong>maryg@ifsp.edu.br</strong></a>
+        </span>
+      </div>
+
+      <!-- Sumário reorganizado com semanas, datas e links clicáveis (datas e títulos em negrito) -->
+      <nav aria-label="sumário das semanas">
+        <ul class="toc">
+          <li><a href="#semana-01"><strong>Semana 01</strong> — <strong>31/07–01/08</strong></a></li>
+          <li><a href="#semana-02"><strong>Semana 02</strong> — <strong>04/08–07/08</strong></a></li>
+          <li><a href="#semana-03"><strong>Semana 03</strong> — <strong>11/08–14/08</strong></a></li>
+          <li><a href="#semana-04"><strong>Semana 04</strong> — <strong>18/08–21/08</strong></a></li>
+          <li><a href="#semana-05"><strong>Semana 05</strong> — <strong>28/08–30/08</strong></a></li>
+          <li><a href="#semana-06"><strong>Semana 06</strong> — <strong>04/09–11/09</strong></a></li>
+          <li><a href="#semana-07"><strong>Semana 07</strong> — <strong>15/09–18/09</strong></a></li>
+          <li><a href="#semana-08"><strong>Semana 08</strong> — <strong>22/09–25/09</strong></a></li>
+          <li><a href="#semana-09"><strong>Semana 09</strong> — <strong>29/09–02/10</strong></a></li>
+          <li><a href="#semana-10"><strong>Semana 10</strong> — <strong>06/10–09/10</strong></a></li>
+          <li><a href="#semana-11a"><strong>Semana 11</strong> — <strong>13/10–16/10</strong></a></li>
+          <li><a href="#semana-11b"><strong>Semana 11</strong> — <strong>20/10–23/10</strong></a></li>
+          <li><a href="#semana-12"><strong>Semana 12</strong> — <strong>27/10–30/10</strong></a></li>
+          <li><a href="#semana-13"><strong>Semana 13</strong> — <strong>03/11–06/11</strong></a></li>
+          <li><a href="#semana-14"><strong>Semana 14</strong> — <strong>10/11–13/11</strong></a></li>
+          <li><a href="#semana-15"><strong>Semana 15</strong> — <strong>17/11</strong></a></li>
+          <li><a href="#semana-16"><strong>Semana 16</strong> — <strong>24/11–27/11</strong></a></li>
+          <li><a href="#semana-17"><strong>Semana 17</strong> — <strong>01/12–04/12</strong></a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section" aria-labelledby="ementa">
+      <h2 id="ementa"><strong>Resumo da ementa</strong></h2>
+      <p>
+        O componente curricular visa contribuir para a compreensão sobre como historicamente se constituiu a educação das crianças de 0 a 6 anos em seus diferentes contextos sociais, econômicos, étnico-raciais, de gênero, culturais e territoriais. Fomentando a reflexão sobre as concepções de direito à educação, de infância, de criança, de indissociabilidade entre cuidar e educar, de interações e brincadeiras como eixos orientadores dos currículos na primeira etapa da educação básica, o componente curricular, com o apoio do referencial teórico-metodológico proposto, observará os fundamentos, princípios, políticas e práticas balizadoras do trabalho pedagógico dos contextos de educação infantil, considerando a relevância da atuação docente e de seu papel junto aos bebês e crianças. As práticas pedagógicas serão articuladas às ações de curricularização da extensão e estágio supervisionado.
+      </p>
+    </section>
+
+    <section class="section" aria-labelledby="planejamento">
+      <h2 id="planejamento"><strong>📘 Planejamento da sequência de Semanas</strong></h2>
+
+      <article id="semana-01" class="week" aria-labelledby="semana-01-title">
+        <div class="badge"><strong>Semana 01</strong></div>
+        <h3 id="semana-01-title"><span class="date"><strong>31/07 (2 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Discussão sobre a disciplina. Documentário: Criança a alma do negócio.</strong> Roda de conversa sobre o documentário disponível em: <a href="https://www.youtube.com/watch?v=ur9lIf4RaZ4">https://www.youtube.com/watch?v=ur9lIf4RaZ4</a></p>
+          <h3><span class="date"><strong>01.08 (4 aulas)</strong></span></h3>
+          <p><strong>Apresentação da proposta da disciplina e filme Quando sinto que já sei</strong></p>
+          <p>Discussão dialogada a respeito do filme. Disponível em: <a href="https://www.youtube.com/watch?v=HX6P6P3x1Qg">https://www.youtube.com/watch?v=HX6P6P3x1Qg</a></p>
+          <p>A1, A2 e A3</p>
+        </div>
+      </article>
+
+      <article id="semana-02" class="week" aria-labelledby="semana-02-title">
+        <div class="badge"><strong>Semana 02</strong></div>
+        <h3 id="semana-02-title"><span class="date"><strong>04/08/2025 (2 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Estágio supervisionado na Educação Infantil.</strong></p>
+          <p><strong>Orientações sobre estágio supervisionado: procedimentos burocráticos e questões pedagógicas.</strong></p>
+          <p>Materiais de apoio: Pagina de Estágios: <a href="https://sites.google.com/view/pedagogia-ifspsrq/estagio">https://sites.google.com/view/pedagogia-ifspsrq/estagio</a></p>
+          <p>Moodle de Estágios para tirar dúvidas: <a href="https://moodle.srq.ifsp.edu.br/course/view.php?id=2851&section=2#tabs-tree-start">https://moodle.srq.ifsp.edu.br/course/view.php?id=2851&section=2#tabs-tree-start</a></p>
+          <p>GPT Estágios: <a href="https://chatgpt.com/g/g-689249c6556c8191b25f2ed6140c0ad3-estagio-pedagogia-ifsp">https://chatgpt.com/g/g-689249c6556c8191b25f2ed6140c0ad3-estagio-pedagogia-ifsp</a>  A1, A2 e A3</p>
+          <h3><span class="date"><strong>07/08/2025 (2 aulas)</strong></span></h3>
+          <p><strong>Organização de rotinas e práticas pedagógicas em uma perspectiva democrática.</strong></p>
+          <p>Relato da experiência da Escola Manoel Antonio Coelho.</p>
+          <p>Visita da Escola Manoel Antonio Coelho e estudantes da Unesp de Marília. A1, A2 e A3</p>
+        </div>
+      </article>
+
+      <article id="semana-03" class="week" aria-labelledby="semana-03-title">
+        <div class="badge"><strong>Semana 03</strong></div>
+        <h3 id="semana-03-title"><span class="date"><strong>11/08/2025 (4 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Estágio na Educação Infantil.</strong></p>
+          <p>Divisão de leituras e artigos acadêmicos disponíveis no Link do Zotero para gerenciamento das leituras: <a href="https://www.zotero.org/groups/6093249/educacao_infantil/collections/N3926YR9">https://www.zotero.org/groups/6093249/educacao_infantil/collections/N3926YR9</a></p>
+          <p>Concepções de educação, referencial teórico, metodologia, papel dos estagiários e principais desafios. (Substituição da professora Rosa). A1, A2 e A3</p>
+          <h3><span class="date"><strong>14/08/2025 (2 aulas)</strong></span></h3>
+          <p><strong>Planejamento dos grupos cooperativos e sistema de acompanhamento.</strong></p>
+          <p>Divisão das células cooperativas.</p>
+          <p>Orientações sobre levantamento de artigos no Zotero.</p>
+          <p>Registro de presenças, divisão de tarefas e atividades. A1, A2 e A3</p>
+        </div>
+      </article>
+
+      <article id="semana-04" class="week" aria-labelledby="semana-04-title">
+        <div class="badge"><strong>Semana 04</strong></div>
+        <h3 id="semana-04-title"><span class="date"><strong>18/08/2025 (2 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Documentação pedagógica na Educação Infantil e nos estágios supervisionados.</strong></p>
+          <p>Apresentação de slides e discussão dialogada.</p>
+          <p>Trabalho em células cooperativas com reflexões e registros.</p>
+          <h3><span class="date"><strong>21/08/2025 (2 aulas)</strong></span></h3>
+          <p><strong>Aprendizagem cooperativa.</strong></p>
+          <p>Discussão dialogada.</p>
+          <p>Vivências de jogos cooperativos com o Prof. Frank Viana. A1, A2 e A3</p>
+        </div>
+      </article>
+
+      <article id="semana-05" class="week" aria-labelledby="semana-05-title">
+        <div class="badge"><strong>Semana 05</strong></div>
+        <h3 id="semana-05-title"><span class="date"><strong>28/08/2025 (2 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Pedagogia das Cem Linguagens da Criança.</strong></p>
+          <p>Discussão dialogada com apoio de slides.</p>
+          <p>Relação com materiais não estruturados na Educação Infantil.</p>
+          <p>Materiais de apoio:</p>
+          <p>Video - visita a creche inspirada em Reggio Emilia: <a href="https://www.youtube.com/watch?v=Z2CTr-5Bnsc">https://www.youtube.com/watch?v=Z2CTr-5Bnsc</a></p>
+          <p>Video Reportagem especial - As Escolas de Educação Infantil de Reggio Emilia, Itália: <a href="https://www.youtube.com/watch?v=4j8mtA_iDss">https://www.youtube.com/watch?v=4j8mtA_iDss</a></p>
+          <p>Referências sobre materiais não estruturados: <a href="https://www.instagram.com/reel/DFnmiMPP3B0/">https://www.instagram.com/reel/DFnmiMPP3B0/</a></p>
+          <p>Como usar materiais não estruturados na Educação Infantil: <a href="https://novaescola.org.br/conteudo/21721/como-usar-materiais-de-largo-alcance-ou-nao-estruturados-na-educacao-infantil">https://novaescola.org.br/conteudo/21721/como-usar-materiais-de-largo-alcance-ou-nao-estruturados-na-educacao-infantil</a></p>
+          <p>Material não estruturado - Tempo de creche - <a href="https://tempodecreche.com.br/tag/material-nao-estruturado/">https://tempodecreche.com.br/tag/material-nao-estruturado/</a></p>
+          <h3><span class="date"><strong>30/08/2025 (2 aulas)</strong></span></h3>
+          <p><strong>Campus Aberto. Espaço Brincar e atividades com a comunidade.</strong></p>
+          <p>Organização prévia dos espaços de brincar.</p>
+          <p>Atendimento à comunidade (curricularização da extensão).</p>
+          <p>Atividade com ponto adicional pela participação. A1, A2 e A3</p>
+        </div>
+      </article>
+
+      <article id="semana-06" class="week" aria-labelledby="semana-06-title">
+        <div class="badge"><strong>Semana 06</strong></div>
+        <h3 id="semana-06-title"><span class="date"><strong>04/09/2025 (2 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Atividade no fórum do moodle sobre as leituras de estágio</strong> (entregar até 11 de setembro preferencialmente). Link: <a href="https://moodle.srq.ifsp.edu.br/course/view.php?id=2917">https://moodle.srq.ifsp.edu.br/course/view.php?id=2917</a></p>
+          <p>Sistematização de leitura de artigos sobre estágio e Educação Infantil.</p>
+          <p>Fórum de discussão no Moodle. A1, A2 e A3</p>
+          <h3><span class="date"><strong>11/09/2025 (2 aulas)</strong></span></h3>
+          <p><strong>Experimentações de brincadeiras das propostas dos grupos.</strong></p>
+          <p>Discussão em grupos sobre a BNCC Educação Infantil e os campos de experiência.</p>
+          <p>Análise das possibilidades e organização de espaços pedagógicos com materiais não estruturados. A1, A2 e A3</p>
+        </div>
+      </article>
+
+      <article id="semana-07" class="week" aria-labelledby="semana-07-title">
+        <div class="badge"><strong>Semana 07</strong></div>
+        <h3 id="semana-07-title"><span class="date"><strong>15/09/2025 (4 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Estágio e Educação Infantil: roda de conversa e síntese coletiva temática.</strong> A1, A2 e A3</p>
+          <p>Divisão de leituras entre os grupos a respeito da Legislação e finalidades da educação infantil</p>
+          <p>1. BRASIL. Constituição da República Federativa do Brasil. Brasília: Senado Federal, 1988. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm">https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm</a></p>
+          <p>2. BRASIL. Lei nº 9.394, de 20 de dezembro de 1996. Estabelece as Diretrizes e Bases da Educação Nacional. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l9394.htm">https://www.planalto.gov.br/ccivil_03/leis/l9394.htm</a></p>
+          <p>3. BRASIL, CNE. Resolução nº 5, de 17 de dezembro de 2009. Fixa as Diretrizes Curriculares Nacionais para a Educação Infantil. Disponível em: <a href="https://www.seduc.ro.gov.br/portal/legislacao/RESCNE005_2009.pdf">https://www.seduc.ro.gov.br/portal/legislacao/RESCNE005_2009.pdf</a></p>
+          <p>1. BRASIL. Lei nº 8.069, de 13/07/1990. Estatuto da Criança e do Adolescente (ECA). Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l8069.htm">https://www.planalto.gov.br/ccivil_03/leis/l8069.htm</a></p>
+          <p>2. Referencial curricular para Educação infantil. Disponível em: <a href="https://portal.mec.gov.br/seb/arquivos/pdf/rcnei_vol1.pdf">https://portal.mec.gov.br/seb/arquivos/pdf/rcnei_vol1.pdf</a></p>
+          <h3><span class="date"><strong>18/09/2025 (2 aulas)</strong></span></h3>
+          <p><strong>Direito à educação de bebês e crianças e o direito à proteção integral.</strong> A1, A2 e A3</p>
+          <p>1. BRASIL. Critérios para um atendimento em creches que respeite o direito das crianças. Brasília: MEC, 1995. Disponível em: <a href="http://portal.mec.gov.br/dmdocuments/direitosfundamentais.pdf">http://portal.mec.gov.br/dmdocuments/direitosfundamentais.pdf</a></p>
+          <p>Quiz sobre Legislação e Educação Infantil e síntese coletiva</p>
+        </div>
+      </article>
+
+      <article id="semana-08" class="week" aria-labelledby="semana-08-title">
+        <div class="badge"><strong>Semana 08</strong></div>
+        <h3 id="semana-08-title"><span class="date"><strong>22/09/2025 (2 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Bebês e crianças. Indissociabilidade entre educação e cuidado em ambientes coletivos.</strong> A1, A2 e A3</p>
+          <p>CRUZ, R. A pré-escola vista pelas crianças. ANPED, 2009. Disponível em: <a href="http://www.anped.org.br/reunioes/32ra/arquivos/trabalhos/GT07-5619--Int.pdf">http://www.anped.org.br/reunioes/32ra/arquivos/trabalhos/GT07-5619--Int.pdf</a></p>
+          <p>CINDEDI – USP. O fazer do bebê. Disponível em: <a href="https://youtu.be/0cIhyAbhDKQ">https://youtu.be/0cIhyAbhDKQ</a></p>
+          <p>WERLE, K.; AHMAD, L. A. S. Agrupamentos multi-etários na educação infantil: uma proposta pedagógica do núcleo de educação infantil Ipê Amarelo. Disponível em: <a href="http://educere.bruc.com.br/CD2011/pdf/5585_3914.pdf">http://educere.bruc.com.br/CD2011/pdf/5585_3914.pdf</a></p>
+          <p>CINDEDI – USP. Bebê interage com bebê. Disponível em: <a href="https://youtu.be/2V_OVZ0B80g">https://youtu.be/2V_OVZ0B80g</a></p>
+          <h3><span class="date"><strong>25/09/2025 (2 aulas)</strong></span></h3>
+          <p><strong>Princípios éticos, políticos e estéticos da educação infantil brasileira.</strong> A1, A2 e A3</p>
+          <p>1. BRASIL, CNE. Resolução nº 5/2009. Disponível em: <a href="https://www.seduc.ro.gov.br/portal/legislacao/RESCNE005_2009.pdf">https://www.seduc.ro.gov.br/portal/legislacao/RESCNE005_2009.pdf</a></p>
+          <p>2. BRASIL. Parâmetros Nacionais de Qualidade para a Educação Infantil. MEC, 2006. Disponível em: <a href="http://portal.mec.gov.br/seb/arquivos/pdf/Educinf/eduinfparqualvol1.pdf">http://portal.mec.gov.br/seb/arquivos/pdf/Educinf/eduinfparqualvol1.pdf</a></p>
+          <p>3. BRASIL. Indicadores da qualidade na educação infantil. MEC, 2009. Disponível em: <a href="http://portal.mec.gov.br/dmdocuments/indic_qualit_educ_infantil.pdf">http://portal.mec.gov.br/dmdocuments/indic_qualit_educ_infantil.pdf</a></p>
+        </div>
+      </article>
+
+      <article id="semana-09" class="week" aria-labelledby="semana-09-title">
+        <div class="badge"><strong>Semana 09</strong></div>
+        <h3 id="semana-09-title"><span class="date"><strong>29/09/2025 (2 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Organização dos espaços, tempos e materiais.</strong> A1, A2 e A3</p>
+          <p>1. BRASIL. Parâmetros Básicos de Infra-Estrutura para Instituições de Educação Infantil. MEC, 2006. Disponível em: <a href="http://portal.mec.gov.br/seb/arquivos/pdf/Educinf/miolo_infraestr.pdf">http://portal.mec.gov.br/seb/arquivos/pdf/Educinf/miolo_infraestr.pdf</a></p>
+          <p>2. BRASIL. Critérios para um atendimento em creches. MEC, 1995.</p>
+          <h3><span class="date"><strong>02/10/2025 (2 aulas)</strong></span> — <strong>Visita a espaços lúdicos e brinquedotecas (Brasital, SESC, escolas, museu)</strong></h3>
+          <p>Apresentação da proposta sobre planejamento de sequência didática com jogos e brincadeiras Conexão com a disciplina de Didática</p>
+        </div>
+      </article>
+
+      <article id="semana-10" class="week" aria-labelledby="semana-10-title">
+        <div class="badge"><strong>Semana 10</strong></div>
+        <h3 id="semana-10-title"><span class="date"><strong>06/10/2025 (2 aulas)</strong></span></h3>
+        <div class="content">
+          <p><strong>Família e instituições de Educação Infantil.</strong> A1, A2 e A3</p>
+          <p>1. BHERING, E.; NEZ, T. B. Envolvimento de Pais em Creche. Psicologia: Teoria e Pesquisa, 2002.</p>
+          <p>2. CORRÊA, B. C. Gestão democrática e participação familiar. ANPED, 2002. Disponível em: <a href="http://www.anped.org.br/reunioes/25/texced25.htm#gt7">http://www.anped.org.br/reunioes/25/texced25.htm#gt7</a></p>
+          <p>3. BORGHI, B. Q. As escolas infantis como serviço de qualidade. 1998.</p>
+          <h3><span class="date"><strong>09/10/2025 (4 aulas)</strong></span></h3>
+          <p><strong>Semana da Pedagogia e Cipatec – Atividade com a comunidade: jogos e brincadeiras.</strong> Atividades de curricularização da Extensão</p>
+        </div>
+      </article>
+
+      <article id="semana-11a" class="week" aria-labelledby="semana-11a-title">
+        <div class="badge"><strong>Semana 11</strong></div>
+        <h3 id="semana-11a-title"><span class="date"><strong>13/10/2025 (2 aulas)</strong></span> — <strong>Indicadores de Qualidade na Educação Infantil</strong></h3>
+        <div class="content">
+          <p>Divisão de grupos para reflexão sobre os indicadores</p>
+          <p>BRASIL. Indicadores da qualidade na educação infantil. MEC, 2009. Disponível em: <a href="http://portal.mec.gov.br/dmdocuments/indic_qualit_educ_infantil.pdf">http://portal.mec.gov.br/dmdocuments/indic_qualit_educ_infantil.pdf</a></p>
+          <p>BRAIL. Indicadores de qualidade na Educação: relações raciais na escola. Disponível em: <a href="https://www.unicef.org/brazil/media/2161/file/Indicadores_da_Qualidade_na_Educacao-Relacoes_Raciais_na_Escola.pdf#page=35.33">https://www.unicef.org/brazil/media/2161/file/Indicadores_da_Qualidade_na_Educacao-Relacoes_Raciais_na_Escola.pdf#page=35.33</a></p>
+          <h3><span class="date"><strong>16/10/2025 (2 aulas)</strong></span> — <strong>Escola e Território</strong></h3>
+          <p>Curriculo da Cidade - SME SP. A1, A2 e A3</p>
+          <p><a href="https://acervodigital.sme.prefeitura.sp.gov.br/acervo/curriculo-da-cidade-educacao-infantil/">https://acervodigital.sme.prefeitura.sp.gov.br/acervo/curriculo-da-cidade-educacao-infantil/</a></p>
+          <p>SARMENTO, J. Infância e cidade: restrições e possibilidades. Disponível em: <a href="http://revistaseletronicas.pucrs.br/ojs/index.php/faced/article/view/31317">http://revistaseletronicas.pucrs.br/ojs/index.php/faced/article/view/31317</a></p>
+          <p>TONUCCI, Francesco. A criança como paradigma de uma cidade para todos. Entrevista. Disponível em: <a href="https://cidadeseducadoras.org.br/reportagens/francesco-tonucci-a-crianca-como-paradigma-de-uma-cidade-para-todos/">https://cidadeseducadoras.org.br/reportagens/francesco-tonucci-a-crianca-como-paradigma-de-uma-cidade-para-todos/</a></p>
+          <p>ARAÚJO, V. C. et al. Os sentidos atribuídos pelas crianças à cidade. Disponível em: <a href="http://revistaseletronicas.pucrs.br/ojs/index.php/faced/article/view/30542">http://revistaseletronicas.pucrs.br/ojs/index.php/faced/article/view/30542</a></p>
+        </div>
+      </article>
+
+      <article id="semana-11b" class="week" aria-labelledby="semana-11b-title">
+        <div class="badge"><strong>Semana 11</strong></div>
+        <h3 id="semana-11b-title"><span class="date"><strong>20/10/2025 (2 aulas)</strong></span> — <strong>Educação Infantil e gênero</strong></h3>
+        <div class="content">
+          <p>Abordando a construção de identidades e relações de gênero no contexto da EI. A1, A2 e A3</p>
+          <p>Referências sugeridas:</p>
+          <p>CERISARA, A. B. A. A construção de identidade de gênero e profissional. In: CERISARA, A. B. Professoras de educação infantil: entre o feminino e o profissional. São Paulo: Cortez, 2002. p. 25-44.</p>
+          <p>SANTOS, Lana Ermelina da Silva; FERRIANI, Maria das Graças Carvalho. A violência institucional em creches e pré-escolas sob a ótica das mães. Rev. Bras. Enfermagem, Brasília, 62(1), jan-fev. 2009. Disponível em: <a href="https://www.scielo.br/j/reben/a/bsSLhMsT3L9dGzZwm7PTDzx/?lang=pt&format=pdf">https://www.scielo.br/j/reben/a/bsSLhMsT3L9dGzZwm7PTDzx/?lang=pt&format=pdf</a></p>
+          <h3><span class="date"><strong>23/10/2025 (2 aulas)</strong></span> — <strong>Educação infantil em articulação com a educação especial</strong></h3>
+          <p>Perspectiva da educação inclusiva. A1, A2 e A3</p>
+          <p>Referências sugeridas:</p>
+          <p>BRASIL, CNE. Resolução nº 5/2009. Disponível em: <a href="https://www.seduc.ro.gov.br/portal/legislacao/RESCNE005_2009.pdf">https://www.seduc.ro.gov.br/portal/legislacao/RESCNE005_2009.pdf</a></p>
+          <p>BRASIL. Parâmetros Nacionais de Qualidade para a Educação Infantil. MEC, 2006. Disponível em: <a href="http://portal.mec.gov.br/seb/arquivos/pdf/Educinf/eduinfparqualvol1.pdf">http://portal.mec.gov.br/seb/arquivos/pdf/Educinf/eduinfparqualvol1.pdf</a></p>
+        </div>
+      </article>
+
+      <article id="semana-12" class="week" aria-labelledby="semana-12-title">
+        <div class="badge"><strong>Semana 12</strong></div>
+        <h3 id="semana-12-title"><span class="date"><strong>27/10/2025 (2 aulas)</strong></span> — <strong>Educação para relações étnico-raciais na Educação Infantil</strong></h3>
+        <div class="content">
+          <p>Reflexões sobre práticas, brinquedos, brincadeiras, profissionais e outros aspectos. A1, A2 e A3</p>
+          <p>BRASIL. Indicadores da qualidade na educação infantil. MEC, 2009. Disponível em: <a href="http://portal.mec.gov.br/dmdocuments/indic_qualit_educ_infantil.pdf">http://portal.mec.gov.br/dmdocuments/indic_qualit_educ_infantil.pdf</a></p>
+          <p>Currículo da Cidade SME (p. 43) <a href="https://acervodigital.sme.prefeitura.sp.gov.br/acervo/curriculo-da-cidade-educacao-infantil/">https://acervodigital.sme.prefeitura.sp.gov.br/acervo/curriculo-da-cidade-educacao-infantil/</a></p>
+          <p>CEERT. Educação infantil e igualdade racial. Disponível em: <a href="http://www.diversidadeeducainfantil.org.br/">http://www.diversidadeeducainfantil.org.br/</a></p>
+          <p>FUNAI. Educação Escolar Indígena. Disponível em: <a href="http://www.funai.gov.br/index.php/educacao-escolar-indigena">http://www.funai.gov.br/index.php/educacao-escolar-indigena</a></p>
+          <p>MEC. O governo brasileiro e a educação escolar indígena. Disponível em: <a href="http://portal.mec.gov.br/seb/arquivos/pdf/gbeei.pdf">http://portal.mec.gov.br/seb/arquivos/pdf/gbeei.pdf</a></p>
+          <p>BERGAMASCH, M. A.; SILVA, R. H. Educação escolar indígena no Brasil: da escola para índios às escolas indígenas. Disponível em: <a href="https://online.unisc.br/seer/index.php/agora/article/view/113/72">https://online.unisc.br/seer/index.php/agora/article/view/113/72</a></p>
+          <p>RANDO, B. S. Jogos e brincadeiras indígenas. Disponível em: <a href="http://www2.esporte.gov.br/arquivos/snelis/esporteLazer/cedes/jogosCulturaIsIndigenas.pdf">http://www2.esporte.gov.br/arquivos/snelis/esporteLazer/cedes/jogosCulturaIsIndigenas.pdf</a></p>
+          <p>PROJETO TECENDO SABERES. Pesquisa com crianças indígenas. Disponível em: <a href="http://www.tecendosaberes.com/">http://www.tecendosaberes.com/</a> Complementar: <a href="https://oglobo.globo.com/sociedade/conte-algo-que-nao-sei/marie-ange-bordas-artista-visualouvir-as-criancas-escolha-ideologica-politica-21459639">https://oglobo.globo.com/sociedade/conte-algo-que-nao-sei/marie-ange-bordas-artista-visualouvir-as-criancas-escolha-ideologica-politica-21459639</a></p>
+          <p>FAUSTINO, R. C.; MOTA, L. T. Crianças indígenas: o papel dos jogos, das brincadeiras e da imitação na aprendizagem e no desenvolvimento. Disponível em: <a href="http://periodicos.uem.br/ojs/index.php/ActaSciEduc/article/view/27968/17267">http://periodicos.uem.br/ojs/index.php/ActaSciEduc/article/view/27968/17267</a></p>
+          <h3><span class="date"><strong>30/10/2025 (2 aulas)</strong></span> — <strong>Avaliação na Educação Infantil</strong></h3>
+          <p>Discussão teórica, reflexão a partir de vídeos e roda de conversa. Exercício em grupos sobre avaliação na Educação Infantil.</p>
+          <p>HEMANN LANES, E.; WRUCK TIMM, J. Produções sobre avaliação da aprendizagem e desenvolvimento na educação infantil. Estudos em Avaliação Educacional, São Paulo, v. 33, p. e08769, 2022. DOI: 10.18222/eae.v33.8769. Disponível em: <a href="https://publicacoes.fcc.org.br/eae/article/view/8769">https://publicacoes.fcc.org.br/eae/article/view/8769</a>. Acesso em: 13 set. 2025.</p>
+          <p>A1, A2 e A3</p>
+          <p>Vídeo: Curriculo na Educação Infantil: definições legais - <a href="https://www.youtube.com/watch?v=xgWFOKF-4oQ">https://www.youtube.com/watch?v=xgWFOKF-4oQ</a></p>
+        </div>
+      </article>
+
+      <article id="semana-13" class="week" aria-labelledby="semana-13-title">
+        <div class="badge"><strong>Semana 13</strong></div>
+        <h3 id="semana-13-title"><span class="date"><strong>03/11/2025 (2 aulas)</strong></span> — <strong>Políticas de acesso à Educação Infantil e expansão de vagas</strong></h3>
+        <div class="content">
+          <p>Referências sugeridas:</p>
+          <p>PINTO, J. M. R.; ALVES, T. O Impacto Financeiro da Ampliação da Obrigatoriedade Escolar no Contexto do FUNDEB. Educação Real, Porto Alegre, v. 36, n. 2, maio/ago. 2011. p. 605-624.</p>
+          <p>A1, A2 e A3</p>
+          <h3><span class="date"><strong>06/11/2025 (2 aulas)</strong></span> — <strong>Visita técnica</strong></h3>
+          <p>Novembro (data a definir - 4 aulas)</p>
+          <p>Visita técnica a espaços educativos / culturais com proposta lúdica Atividade externa</p>
+        </div>
+      </article>
+
+      <article id="semana-14" class="week" aria-labelledby="semana-14-title">
+        <div class="badge"><strong>Semana 14</strong></div>
+        <h3 id="semana-14-title"><span class="date"><strong>10/11/2025</strong></span> — <strong>Oficina, lançamento de livro e palestra com o Prof. Manoel Andrade (Aprendizagem cooperativa - Precce)</strong></h3>
+        <div class="content">
+          <h3><span class="date"><strong>13/11/2025</strong></span> — <strong>Objetivos de desenvolvimento Sustentável e sistematização de proposta de sequência didática; atualização dos portfólios</strong></h3>
+          <p>Leitura complementar:</p>
+          <p>UNESCO. Objetivos de desenvolvimento sustentável para crianças. Disponível em: <a href="https://www.youtube.com/playlist?list=PLuaYSS3ezmQAuqmz2En-BlEqb5bX2fUvM">https://www.youtube.com/playlist?list=PLuaYSS3ezmQAuqmz2En-BlEqb5bX2fUvM</a></p>
+          <p>UNESCO. Educação para os objetivos de desenvolvimento sustentável: objetivos de aprendizagem. Disponível em: <a href="https://unesdoc.unesco.org/ark:/48223/pf0000252197">https://unesdoc.unesco.org/ark:/48223/pf0000252197</a></p>
+          <p>A4 - Grupo. Proposta de materiais pedagógicos lúdicos e sequência didática (escrita em formato de artigo reflexivo fundamentado nas leituras do curso) – até 10,0 pontos</p>
+        </div>
+      </article>
+
+      <article id="semana-15" class="week" aria-labelledby="semana-15-title">
+        <div class="badge"><strong>Semana 15</strong></div>
+        <h3 id="semana-15-title"><span class="date"><strong>17/11/2025 (2 aulas)</strong></span> — <strong>Preparação para participação na Mostra de Arte – Atividade Interativa com jogos/brinquedos</strong></h3>
+        <div class="content">
+          <p>Atividade de extensão</p>
+          <p>A1, A2 e A3</p>
+        </div>
+      </article>
+
+      <article id="semana-16" class="week" aria-labelledby="semana-16-title">
+        <div class="badge"><strong>Semana 16</strong></div>
+        <h3 id="semana-16-title"><span class="date"><strong>24/11/2025 (segunda)</strong></span> — <strong>Sistematização de proposta de sequência didática e atualização dos portfólios</strong></h3>
+        <div class="content">
+          <p><span class="date"><strong>27/11/2025 (quinta)</strong></span> — Avaliação dos portfólios e de participação até o momento</p>
+          <p>A1 - Individual. Contribuições ao portfólio do grupo – até 10,0 pontos</p>
+          <p>A2 - Individual. Participação individual na célula e contribuições ao grupo – até 10,0 pontos</p>
+        </div>
+      </article>
+
+      <article id="semana-17" class="week" aria-labelledby="semana-17-title">
+        <div class="badge"><strong>Semana 17</strong></div>
+        <h3 id="semana-17-title"><span class="date"><strong>01/12/2025 (2 aulas)</strong></span> — <strong>Atividade avaliativa: Participação na Mostra de Ciência e Tecnologia com Espaço Criança, propostas e Oficinas</strong></h3>
+        <div class="content">
+          <p>Atividades de curricularização da Extensão</p>
+          <p><span class="date"><strong>03/12/2025 (2 aulas)</strong></span> — Atividade avaliativa: Participação na Mostra de Ciência e Tecnologia com Espaço Criança, propostas e Oficinas</p>
+          <p><span class="date"><strong>04/12/2025 (4 aulas)</strong></span> — Atividade avaliativa: Participação na Mostra de Ciência e Tecnologia com Espaço Criança, propostas e Oficinas</p>
+          <p>[A5 - Grupo. Apresentação das propostas finais – até 10,0 pontos]</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" aria-labelledby="avaliacao">
+      <h2 id="avaliacao"><strong>📝 Avaliação</strong></h2>
+      <div class="content">
+        <p><strong>A1 - Individual.</strong> Contribuições ao portfólio do grupo – até 10,0 pontos</p>
+        <p><strong>A2 - Individual.</strong> Participação individual na célula e contribuições ao grupo – até 10,0 pontos</p>
+        <p><strong>A3 - Individual.</strong> Média das atividades propostas ao longo do curso (fóruns no moodle, atividades em sala, sistematização de leituras) – até 10,0 pontos</p>
+        <p><strong>A4 - Grupo.</strong> Proposta de materiais pedagógicos lúdicos e sequência didática (escrita em formato de artigo reflexivo fundamentado nas leituras do curso) – até 10,0 pontos</p>
+        <p><strong>A5 - Grupo.</strong> Apresentação das propostas finais – até 10,0 pontos</p>
+        <p><strong>A6 - Individual.</strong> Ponto adicional: participação em eventos e atividades extras – 0 a 2,0 pontos</p>
+      </div>
+    </section>
+
+  </div>
+</body>
+</html>
